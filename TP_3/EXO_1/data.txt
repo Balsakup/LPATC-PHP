@@ -1,0 +1,1 @@
+a:16:{s:5:"salut";s:5:"hello";s:2:"le";s:3:"the";s:5:"monde";s:5:"world";s:7:"bonjour";s:5:"hello";s:6:"copain";s:6:"friend";s:4:"chat";s:3:"cat";s:4:"pipi";s:3:"pee";s:2:"de";s:2:"of";s:4:"caca";s:4:"poop";s:5:"ville";s:4:"city";s:6:"manger";s:3:"eat";s:5:"boire";s:5:"drink";s:2:"la";s:3:"the";s:6:"souris";s:5:"mouse";s:5:"mange";s:4:"eats";s:4:"boit";s:6:"drinks";}

@@ -29,7 +29,7 @@ if (stristr(PHP_OS, 'LINUX') || stristr(PHP_OS, 'DAR')) {
 
 printf("========== LE TRADUCTEUR ==========\n");
 
-$dico = [
+/*$dico = [
     'le' => 'the',
     'la' => 'the',
     'petit' => 'small',
@@ -40,7 +40,9 @@ $dico = [
     'lait' => 'milk',
     'boit' => 'drinks',
     'du' => ''
-];
+];*/
+
+$dico = unserialize(file_get_contents('dico.txt'));
 
 $continue = null;
 
@@ -51,3 +53,5 @@ do {
         $continue = strtolower(ask("Voulez-vous continuez (o/n)"));
     } while ($continue != 'o' && $continue != 'n');
 } while ($continue == 'o');
+
+file_put_contents('dico.txt', serialize($dico));
