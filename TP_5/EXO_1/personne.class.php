@@ -13,8 +13,40 @@ class Personne {
         $this->nationnalite = $nationnalite;
     }
 
-    public function toString() {
+    public function __toString() {
         return "Personne[nom: $this->nom; prenom: $this->prenom; adresse: $this->adresse; nationnalite: $this->nationnalite]";
+    }
+
+    public function setNom($nom) {
+        $this->nom = $nom;
+    }
+
+    public function getNom() {
+        return $this->nom;
+    }
+
+    public function setPrenom($prenom) {
+        $this->prenom = $prenom;
+    }
+
+    public function getPrenom() {
+        return $this->prenom;
+    }
+
+    public function setAdresse($adresse) {
+        $this->adresse = $adresse;
+    }
+
+    public function getAdresse() {
+        return $this->adresse;
+    }
+
+    public function setNationnalite($nationnalite) {
+        $this->nationnalite = $nationnalite;
+    }
+
+    public function getNationnalite() {
+        return $this->nationnalite;
     }
 
     public function __destruct() {
